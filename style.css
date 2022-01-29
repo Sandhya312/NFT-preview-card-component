@@ -1,0 +1,181 @@
+/* ### Primary
+
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 18px */
+
+
+
+
+*{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+body{
+    /* height:100vh; */
+    display:flex;
+    background: hsl(217, 54%, 11%);
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-around;
+   /* height: 1440px; */
+   /* width: 1440px; */
+
+}
+
+
+.card{
+    /* border: 2px solid black; */
+    background-color:  hsl(216, 50%, 16%);
+    width: 290px;
+    height: 515px;
+     border-radius: 17px;
+     margin: 98px 0px;
+     /* text-align: center; */
+     padding:25px 25px; 
+     box-shadow: hsl(217, 94%, 6%) 20px 20px 20px ;
+     /* box-shadow: hsl(217, 88%, 20%) 20px 20px 20px ; */
+
+}
+.card>img{
+    width: 285px;
+    height: 290px;
+    /* margin: 9px; */
+    border-radius: 10px;
+    cursor: pointer;
+    /* background:url('images/image-equilibrium.jpg'); */
+    /* background-color: hsl(178, 100%, 50%); */
+
+}
+.icon{
+    width: 285px;
+    border-radius: 10px;
+    height: 290px;
+    bottom: 293px;
+    position: absolute;
+    cursor: pointer;
+    background-color: hsla(178, 100%, 50%, 0.507);
+    opacity: 0;
+}
+.icon img{
+    position:absolute;
+    bottom:125px;
+    left: 119px;
+}
+ .icon:hover {
+    opacity: 1;
+    
+}
+.card h2{
+    /* font-size: 24px; */
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-weight:600;
+}
+.card p{
+    /* font-size: 15px; */
+   color:hsl(215, 51%, 70%);
+   text-align:left;
+   /* text-align-last:left; */
+   font-weight: 300;
+   /* font-size: 16px; */
+   
+}
+.left{
+    position: relative;
+   
+    right:9px;
+}
+.left img{
+    width: 10px;
+    height: 18px;
+    position: relative;
+    top: 5px;
+    left: 9px;
+    
+}
+.left p{
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    position: relative;
+    bottom: 34px;
+    left: 26px;
+    font-size:16px;
+    
+}
+.right img{
+    width: 17px;
+    height: 17px;
+    position: relative;
+    left: 190px;
+    bottom: 70px;
+}
+.right p{
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+    position: relative;
+    bottom: 110px;
+    left: 215px;
+    font-size:16px;
+}
+hr{
+    position: relative;
+    /* left: 9px; */
+    bottom: 110px;
+    color: hsl(215, 32%, 27%);
+    border-style: solid;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: hidden;
+    /* border-top-right-radius: 2px; */
+}
+.bottom img{
+    width: 33px;
+    height: 31px;
+    position: relative;
+    /* left: 1px; */
+    bottom: 66px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.bottom{
+    position: relative;
+    bottom:35px;
+   
+}
+.bottom p{
+    color: hsl(215, 51%, 70%);
+    font-weight: 600;
+    position: relative;
+    bottom: 115px;
+    left: 50px;
+    font-weight: 400;
+    font-size: 16px;
+}
+span{
+    color:white;
+    font-size:16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+span:hover{
+    color:hsl(178, 100%, 50%);
+}
+.head h2{
+    cursor: pointer;
+}
+.head h2:hover{
+    color:hsl(178, 100%, 50%);
+}
